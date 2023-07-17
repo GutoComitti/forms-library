@@ -1,4 +1,7 @@
 <?php
+
+include_once("autoload.php");
+
 class Form {
 
     protected $_inputs;

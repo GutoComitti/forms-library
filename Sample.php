@@ -1,4 +1,7 @@
 <?php
+
+include_once("autoload.php");
+
 $form = new Form();
 
 $form->addInput(new TextInput("firstname", "First Name", "Bruce"));
