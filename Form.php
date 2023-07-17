@@ -4,7 +4,7 @@ include_once("autoload.php");
 
 use Inputs\Input;
 
-class Form {
+class Form implements FormInterface {
 
     /**
      * Input[]
